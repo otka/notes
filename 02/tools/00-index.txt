@@ -1,10 +1,4 @@
-1. Tools
-
-    VirtualBox
-    Vagrant
-
-
-2. CI Tools
+1. CI Tools
 
     Travis CI
         https://travis-ci.org/
