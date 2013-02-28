@@ -1,10 +1,5 @@
-
 Example #2
 
-
-
-    1.  Start the work with tests
+    1.  Generate tests using classes
     2.  Generate classes using tests
-
-    https://github.com/tdd-php/lib-simple-string
 

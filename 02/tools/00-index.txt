@@ -6,3 +6,4 @@
     Scrutinizer CI
         https://scrutinizer-ci.com/
 
+2. PHPUnit_SkeletonGenerator
