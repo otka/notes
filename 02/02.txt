@@ -1,10 +1,10 @@
-1. Narzêdzia
+1. Tools
 
     VirtualBox
     Vagrant
 
 
-2. Narzêdzia CI
+2. CI Tools
 
     Travis CI
         https://travis-ci.org/

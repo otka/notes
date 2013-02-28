@@ -9,7 +9,6 @@ phpcs --version
 
 
 
-
 Symfony2 coding standard
     https://github.com/opensky/Symfony2-coding-standard
 

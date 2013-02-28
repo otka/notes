@@ -6,7 +6,7 @@ http://en.wikipedia.org/wiki/Rsync
 http://rsync.samba.org/
 
 
-Instalacja w windows - oprogramowanie cygwin.
+Installation in Windows - Cygwin.
 
 http://www.cygwin.com/
 
@@ -19,6 +19,6 @@ Login:         joe
 Password:
 Host:          my.super.host.example.net
 Port:          1234
-Komenda RSYNC:
+Command RSYNC:
 
 rsync  --chmod=a+rwx,g+rwx,o-w  -azC --force --delete --progress --exclude-from=rsync_exclude.txt -e "ssh -p1234" ./ joe.doe@example.net:/some/path

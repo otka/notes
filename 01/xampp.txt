@@ -2,12 +2,13 @@ XAMPP
 
 http://www.apachefriends.org/en/xampp.html
 
-Wersja: 1.8.1
+Version: 1.8.1
 
 
 
+==================================
+PROBLEMS WITH PEAR
 
-B³êdy w konfiguracji PEAR:
 
 pear config-show
 

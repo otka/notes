@@ -1,6 +1,6 @@
 1. XAMPP
 
-2. Narzêdzia
+2. Tools
     git
     composer
     phpunit
@@ -10,7 +10,7 @@
     cygwin
     rsync
 
-3. TDD - informacje ogólne
+3. TDD - general info
 
     http://pl.wikipedia.org/wiki/Test-driven_development
     http://en.wikipedia.org/wiki/Test-driven_development
