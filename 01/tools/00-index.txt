@@ -1,0 +1,11 @@
+Tools:
+
+    XAMPP
+    git
+    composer
+    phpunit
+    phpcs
+    phpdoc
+    ssh
+    cygwin
+    rsync
