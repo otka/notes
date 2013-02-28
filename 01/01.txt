@@ -18,3 +18,15 @@ Example #1
 
     https://github.com/tdd-php/lib-simple-calc
     https://github.com/tdd-php/app-simple-calc
+
+
+
+Homework:
+
+1. A class with some static methods to manipulate strings:
+
+    strtolower
+    strtoupper
+    removeDigits
+    removeLetters
+

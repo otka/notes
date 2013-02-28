@@ -1,14 +1,20 @@
-1. Tools
 
-    VirtualBox
-    Vagrant
+Example #1
 
+    1.  Object oriented namespaced code
+    2.  Using Composer to define dependencies
+    3.  First assertion: assertEqual()
+    4.  Runing tests with phpunit
+    5.  Automatic bootstraping for tests
+    5.  Coverage
+    6.  Generating documentation
+    7.  Quality of code: php-cs
+    8.  Data providers
+    9.  Problem with floating point numbers: delta
+    10. Testing exceptions with @expectedException
+    11. Working with git
+    12. Travis CI
+    13. Scrutinizer CI
 
-2. CI Tools
-
-    Travis CI
-        https://travis-ci.org/
-
-    Scrutinizer CI
-        https://scrutinizer-ci.com/
-
+    https://github.com/tdd-php/lib-simple-calc
+    https://github.com/tdd-php/app-simple-calc
