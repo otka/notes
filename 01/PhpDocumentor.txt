@@ -1,0 +1,9 @@
+PhpDocumentor
+
+http://www.phpdoc.org/
+
+pear -c c:\xampp\php\pear.ini channel-discover pear.phpdoc.org
+pear -c c:\xampp\php\pear.ini install phpdoc/phpDocumentor-alpha
+
+phpdoc --version
+phpdoc --help

@@ -1,0 +1,18 @@
+1. XAMPP
+
+2. Narzêdzia
+    git
+    composer
+    phpunit
+    phpcs
+    phpdoc
+    ssh
+    cygwin
+    rsync
+
+3. TDD - informacje ogólne
+
+    http://pl.wikipedia.org/wiki/Test-driven_development
+    http://en.wikipedia.org/wiki/Test-driven_development
+    http://en.wikipedia.org/wiki/Unit_testing
+

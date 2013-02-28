@@ -1,0 +1,18 @@
+PHPCS - PHP Code Sniffer
+
+http://pear.php.net/package/PHP_CodeSniffer/
+
+pear -c c:\xampp\php\pear.ini install PHP_CodeSniffer-1.5.0RC1
+
+phpcs --help
+phpcs --version
+
+
+
+
+Symfony2 coding standard
+    https://github.com/opensky/Symfony2-coding-standard
+
+git clone git://github.com/opensky/Symfony2-coding-standard.git C:/xampp/php/pear/PHP/CodeSniffer/Standards/Symfony2
+
+

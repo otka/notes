@@ -1,0 +1,13 @@
+SSH klient
+
+http://pl.wikipedia.org/wiki/Secure_Shell
+http://en.wikipedia.org/wiki/Secure_Shell
+
+Do³±czony do git'a
+
+
+Login:     joe
+Password:
+Host:      my.super.host.example.net
+Port:      1234
+Komenda:   ssh -p1234 joe@my.super.host.example.net

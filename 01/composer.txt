@@ -1,0 +1,13 @@
+Composer
+
+http://getcomposer.org/doc/00-intro.md#installation-windows
+
+
+Composer-Setup.exe
+
+
+composer selfupdate
+
+composer --help
+composer --version
+
