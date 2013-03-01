@@ -9,3 +9,4 @@ Tools:
     ssh
     cygwin
     rsync
+    GraphViz
