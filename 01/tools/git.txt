@@ -6,3 +6,5 @@ git --help
 git --version
 
 
+
+git config --global core.autocrlf false
