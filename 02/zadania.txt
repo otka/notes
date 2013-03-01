@@ -24,8 +24,10 @@ Zad 01.03.
     f(x) = x^2
     f(x, y) = (x + y) / (x - y)
 
+Pracujemy w gałęziach i przez pull requesty.
 
 Zad 01.04.
     W aplikcaji app-simple-calc dodać wywołanie własnej funkcji.
 
+Pracujemy w gałęziach i przez pull requesty.
 
