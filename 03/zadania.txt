@@ -1,0 +1,16 @@
+Zad 02.01.
+    Dodaj własną metodę do biblioteki lib-simple-calc.
+    Zwróć uwagę na phpdoc, phpcs, phpunit oraz pokrycie testów.
+
+    f(x) = 1 + x
+    f(x) = 2 * x
+    f(x) = x^2
+    f(x, y) = (x + y) / (x - y)
+
+Pracujemy w gałęziach i przez pull requesty.
+
+Zad 02.02.
+    W aplikcaji app-simple-calc dodać wywołanie własnej funkcji.
+
+Pracujemy w gałęziach i przez pull requesty.
+
