@@ -1,0 +1,23 @@
+Zad 01.01.
+
+Sklonować projekty:
+
+    git clone https://github.com/tdd-php/app-simple-calc
+    git clone https://github.com/tdd-php/lib-simple-calc
+
+Uruchomić omówione polecenia.
+Uruchomić aplikację.
+
+Zad 01.02.
+    Dodaj własną metodę do biblioteki lib-simple-calc.
+    Zwróć uwagę na phpdoc, phpcs, phpunit oraz pokrycie testów.
+
+    f(x) = 1 + x
+    f(x) = 2 * x
+    f(x) = x^2
+    f(x, y) = (x + y) / (x - y)
+
+
+Zad 01.03.
+    W aplikcaji app-simple-calc dodać wywołanie własnej funkcji.
+
