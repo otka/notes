@@ -6,4 +6,8 @@
     Scrutinizer CI
         https://scrutinizer-ci.com/
 
-2. PHPUnit_SkeletonGenerator
+
+2. VirtualBox + Vagrant
+
+    https://github.com/tdd-php/vagrant-tutorial
+

@@ -1,5 +1,0 @@
-Example #2
-
-    1.  Generate tests using classes
-    2.  Generate classes using tests
-
