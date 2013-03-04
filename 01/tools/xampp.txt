@@ -30,3 +30,13 @@ pear -c c:\xampp\php\pear.ini config-set www_dir c:\xampp\php\pear\www
 pear -c c:\xampp\php\pear.ini config-show
 
 pear -c c:\xampp\php\pear.ini upgrade-all
+
+==================================
+
+APC
+
+http://dev.freshsite.pl/php-accelerators/apc.html
+
+php_apc_3114_beta_php54_win7-2008.zip
+php_apc_3114_beta_php54_win7-2008.dll
+
