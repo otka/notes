@@ -14,3 +14,5 @@ Zad 02.02.
 
 Pracujemy w gałęziach i przez pull requesty.
 
+
+Data sprawdzania: 2013-03-15

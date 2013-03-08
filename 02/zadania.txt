@@ -15,3 +15,4 @@ Sklonować projekt:
 
 i uruchomić aplikację.
 
+Data sprawdzania: 2013-03-08
