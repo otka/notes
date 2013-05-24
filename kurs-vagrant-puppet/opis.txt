@@ -1,2 +1,12 @@
 Vagrant + Puppet
 
+Instalacja oprogramowania:
+
+VirtualBox
+Vagrant
+
+VirtualBox, Vagrant oraz Puppet to narzêdzia do uruchamiania systemów wirtualnyuch.
+
+Konfiguracja maszyny wirtualnej jest zapisana w pliku vagrant file.
+
+Przyk³ad pierwszy

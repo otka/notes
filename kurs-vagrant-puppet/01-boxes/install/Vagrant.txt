@@ -1,0 +1,7 @@
+Vagrant
+
+Vagrant.msi
+
+http://www.vagrantup.com/
+http://downloads.vagrantup.com/
+

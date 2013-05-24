@@ -1,0 +1,22 @@
+Exercise
+========
+
+Start vagrant and access virtual filesystem with ssh.
+Check that files are synchronized.
+
+vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+vagrant init lucid32 http://files.vagrantup.com/lucid32.box
+vagrant up
+vagrant status
+vagrant destroy
+
+SSH Commands:
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key vagrant@127.0.0.1
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key -o StrictHostKeyChecking=no vagrant@127.0.0.1
+
+Create files:
+echo hello > hello.txt
+echo bye > /vagrant/bye.txt
+
+On linux:
+cd /vagrant
