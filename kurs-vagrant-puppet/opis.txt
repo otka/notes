@@ -9,4 +9,23 @@ VirtualBox, Vagrant oraz Puppet to narzêdzia do uruchamiania systemów wirtualnyu
 
 Konfiguracja maszyny wirtualnej jest zapisana w pliku vagrant file.
 
-Przyk³ad pierwszy
+Pierwsza seria æwiczeñ: uruchamianie gotowych boxów.
+
+Boxy precise oraz lucid to skonfigurowane bazowe dystrybucje linuxa ubuntu.
+Najnowsza wersja linuxa jest zawarta w serii precise.
+Wersja 64 nie dzia³a na wszystkich komputerach.
+Bêdziemy wiêc pracowali na precise32.
+
+Æwiczenie: 01-02-precise-32 pokazuje jak uruchomiæ system wirtualny opraty o
+box precise 32.
+
+Uruchomienie æwiczenia:
+
+vagrant up
+
+wy³±czenie systemu
+
+vagrant destroy
+
+
+
