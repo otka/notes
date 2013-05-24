@@ -119,4 +119,10 @@ stage - etap przetwarzania konfiguracji
 
 
 
+Praca domowa:
+Æwiczenia
+    exercise-01-02-precise32
+    exercise-02-01-manual-apt-get
+    exercise-02-01-resource
+
 
