@@ -38,8 +38,8 @@ ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key -o StrictHostKeyCh
 
 
 Terminologia: Host, Guest
-Host  - virtualny (ubuntu)
-Guest - laptop (Windows)
+Host  - laptop (Windows)
+Guest - system virtualny (ubuntu)
 
 3. Synchronizacja folderów pomiêdzy systemami
 
@@ -62,5 +62,61 @@ Wydajemy komendy:
 
 
 Wada rêcznej instalacji: po restarcie systemu zainstalowane sk³adniki nie s± obecne.
+
+5. Zmiana synchronizowanego folderu
+
+Opcja konfiguracyjna
+
+  config.vm.synced_folder "./..", "/vagrant"
+
+ustala synchronizacjê folderów.
+
+Pierwszy parametr to folder na komputerze host (Windows)
+Drugi parametr to folder w systemie guest (system wirtualny Linux)
+
+
+6. Konfiguracja zasobów
+
+Jednym z rozwi±zañ jest wykorzystanie do konfiguracji zasobów jêzyka puppet.
+
+Zasoby opisujemy w pliku o rozszerzeniu .pp i ³adujemy komend±:
+
+puppet apply file-1.pp
+
+Rodzaje zasobów:
+
+Plik
+        file {'testfile':
+              path    => '/vagrant/abc.txt',
+              ensure  => present,
+              mode    => 0640,
+              content => "I'm a test file with abc.",
+        }
+
+
+Konto u¿ytkownika
+        user { 'abc':
+            ensure => 'present',
+            home => '/home/abc',
+        }
+
+Sygnalizacja zdarzeñ:
+    notify {'arbitrary title':
+          message => "Some text...",
+    }
+
+Pe³na lista zasobów: http://docs.puppetlabs.com/references/latest/type.html
+
+
+cron  - zadanie crona
+exec  - wykonanie komendy
+group - grupa w systemie
+package - pakiet oprogramowania
+service - us³uga w systemie
+stage - etap przetwarzania konfiguracji
+
+
+
+
 
 
