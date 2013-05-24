@@ -1,0 +1,17 @@
+Exercise
+========
+
+Set up Apache with port forwarding
+
+Check that you can access webpages with your browser using:
+
+http://localhost:8080
+
+
+vagrant status
+vagrant reload
+
+
+vagrant status
+vagrant up
+

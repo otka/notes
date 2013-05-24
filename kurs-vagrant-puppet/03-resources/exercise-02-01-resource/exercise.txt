@@ -1,0 +1,34 @@
+Exercise
+========
+
+Start new vbox
+
+vagrant init precise32 http://files.vagrantup.com/precise32.box
+vagrant up
+
+
+SSH
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key vagrant@127.0.0.1
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key -o StrictHostKeyChecking=no vagrant@127.0.0.1
+
+
+
+1. Check resources:
+
+puppet resource user
+puppet resource user root
+puppet resource file /etc
+
+
+2. Apply resource:
+
+remove file abc.txt
+rm abc.txt
+
+Load resource:
+
+puppet apply file-1.pp
+
+puppet apply notify-1.pp
+
+

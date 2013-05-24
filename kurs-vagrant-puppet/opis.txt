@@ -1,6 +1,6 @@
 Vagrant + Puppet
 
-Instalacja oprogramowania:
+1. Instalacja oprogramowania
 
 VirtualBox
 Vagrant
@@ -9,7 +9,7 @@ VirtualBox, Vagrant oraz Puppet to narzêdzia do uruchamiania systemów wirtualnyu
 
 Konfiguracja maszyny wirtualnej jest zapisana w pliku vagrant file.
 
-Pierwsza seria æwiczeñ: uruchamianie gotowych boxów.
+2. Pierwsza seria æwiczeñ: uruchamianie gotowych boxów.
 
 Boxy precise oraz lucid to skonfigurowane bazowe dystrybucje linuxa ubuntu.
 Najnowsza wersja linuxa jest zawarta w serii precise.
@@ -41,7 +41,7 @@ Terminologia: Host, Guest
 Host  - virtualny (ubuntu)
 Guest - laptop (Windows)
 
-Synchronizacja folderów pomiêdzy systemami
+3. Synchronizacja folderów pomiêdzy systemami
 
 Domy¶lnie synchronizowany jest folder, w którym wydajemy komendê vagrant up.
 Folder ten jest widoczny w systemie wirtualnym jako /vagrant
@@ -50,12 +50,17 @@ Na komputerze Windows:  folder komenty vagrant up
 W systemie wirtualnym Ubuntu: folder /vagrant
 
 
+4. Rêczna instalacja zasobów w systemie wirtualnym
+
+Wydajemy komendy:
+
+    Lynx
+        sudo apt-get install lynx-cur
+
+    Git
+        sudo apt-get install git
 
 
-
-
-
-
-
+Wada rêcznej instalacji: po restarcie systemu zainstalowane sk³adniki nie s± obecne.
 
 

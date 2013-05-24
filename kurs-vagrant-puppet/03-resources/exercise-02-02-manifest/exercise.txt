@@ -1,0 +1,21 @@
+Exercise
+========
+
+Resources in manifest
+
+
+After:
+
+vagrant up
+
+There should be a file abc.txt and the user abc:
+
+
+Switch to the abc user account:
+
+sudo -u abc sh
+
+whoami
+
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key vagrant@127.0.0.1
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key -o StrictHostKeyChecking=no vagrant@127.0.0.1
