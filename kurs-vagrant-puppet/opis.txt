@@ -28,4 +28,34 @@ wy³±czenie systemu
 vagrant destroy
 
 
+Po uruchomieniu æwiczenia na komputer pobrany zostanie box precise32.
+
+Jak siê dostaæ do systemu wirtualnego?
+Przy u¿yciu ssh:
+
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key vagrant@127.0.0.1
+ssh -p2222 -i C:/Users/gajdaw/.vagrant.d/insecure_private_key -o StrictHostKeyChecking=no vagrant@127.0.0.1
+
+
+Terminologia: Host, Guest
+Host  - virtualny (ubuntu)
+Guest - laptop (Windows)
+
+Synchronizacja folderów pomiêdzy systemami
+
+Domy¶lnie synchronizowany jest folder, w którym wydajemy komendê vagrant up.
+Folder ten jest widoczny w systemie wirtualnym jako /vagrant
+
+Na komputerze Windows:  folder komenty vagrant up
+W systemie wirtualnym Ubuntu: folder /vagrant
+
+
+
+
+
+
+
+
+
+
 
